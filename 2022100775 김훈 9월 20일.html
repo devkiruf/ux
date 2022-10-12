@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    html,
+    body {
+      margin: 10;
+      padding: 10;
+      height: 100%
+    }
+
+    header {
+      width: 100%;
+      height: 15%;
+    }
+  
+    
+  </style>
+  <link rel="stylesheet" href="imjae.css">
+  <title>임재현</title>
+  <style>
+    html, body {margin: 0; padding: 0; height: 100%;}
+    header { width: 100%; height: 15%; background: yellow;}
+    nav { width: 15%; height: 70%; float: left; background: orange;}
+    section {width: 70; height: 70%; float: left; background: olivedrab;}
+    aside { width: 15%; height: 70%; float: left; background: orange;}
+    footer { width: 100%; height: 15%; clear: both; background: plum;}
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1><a href="https://www.instagram.com/limjaehyun_singing/" target="_blank">임재현</a></h1>
+    <img src="him.jpg" width="130" height="130">
+  </header>
+
+  <nav>
+    <ul>
+      <li>
+        <h2>목차</h2>
+      </li>
+      <ul>
+
+        <li>1. <a href="https://www.youtube.com/watch?v=T8XbVWBEMfw" target="_blank">노래</a></li>
+        <li>2. <a href="https://www.youtube.com/watch?v=ts6LyW_XWVw" target="_blank">노래영상</a></li>
+        <li>3. <a href="https://www.youtube.com/watch?v=9Gpi912gP9s" target="_blank">유튜브</a></li>
+      </ul>
+    </ul>
+  </nav>
+  <section>
+    <article>
+      <h2>
+        대표곡
+      </h2>
+      <hr>
+      <p>임재현의 대표곡으로는 "사랑에 연습이 있었다면", "조금 취했어", "고백하는 취한밤에" 등 대부분 약간이 알콜향이 난다<hr>
+        ,사랑에 연습이 있었다면 <a href="https://www.youtube.com/watch?v=u37OQ7OE7f0" target="_blank">바로보기</a>.</P>
+    </article>
+    <article>
+      <h2>학업</h2>
+      <hr>
+      <p>임재현 서예대 출신으로 굉장한 실력자인 것을 알 수 있다.</P>
+    </article>
+    <article>
+      <h2>유튜브</h2>
+      <hr>
+      <p>임재현은 유튜브에서 검색하면 은근 많은 곳에서 볼 수 있는데 노래 유튜브들이랑 같이 영상을 찍는 경우도 많다.</p>
+
+    </article>
+  </section>
+  <hr>
+  <br>
+  <aside>
+    임재현의 노래는 들어보면 거의 대부분의 노래가 고음이 많다
+  </aside>
+  <br>
+  <hr>
+  <footer>2022년 09월 20일 작성자:김훈</footer>
+  <hr>
+  <br>
+  가장 좋은 노래 : <input type="text" list="best_songs">
+  <datalist id="best_songs">
+    <option value="고백하는 취한 밤에">
+    <option value="조금 취했어">
+    <option value="사랑에 연습이 있었다면">
+
+  </datalist>
+  <br><br>가장 별로인 노래 : <input type="text" list="worst_songs">
+  <datalist id="worst_songs">
+    <option value="고백하는 취한 밤에">
+    <option value="조금 취했어">
+    <option value="사랑에 연습이 있었다면">
+   
+  </datalist>
+  <h3>당신이 가장 좋아하는 노래 장르는?</h3>
+  <form>
+    발라드 <input type="radio" name="song" value="1">
+    랩 <input type="radio" name="song" value="2">
+    대중가요 <input type="radio" name="song" value="3">
+    <input type="reset" value="리셋">
+  </form>
+  <form>
+    <input type="reset" value="리셋">
+    <button type="reset">리셋</button>
+  </form>
+  <br>
+  <h3>컬러다이얼로그로 색 선택</h3>
+  <form>
+    색 선택 <input type="color" value="00BFFF" onchange="document.body.style.color=this.value">
+  </form>
+  <form>
+    <input type="datetime-local" value="2022-03-21T10:07:21">
+  </form>
+</body>
+
+</html>
