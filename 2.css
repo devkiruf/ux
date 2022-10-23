@@ -1,0 +1,35 @@
+html {
+    background-color: rgb(169, 212, 247);
+}
+
+form {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(247, 169, 189);
+    background-image: url("ing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 650px 320px;
+    text-shadow: 1px 1px 2px blue;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+hr {
+    color: black;
+    size: 1px;
+}
+
+#bottom {
+    border-bottom: 1px solid black ;
+}
+div {
+    font-family: "휴먼편지체";
+    border-radius: 50px;
+    background-color: orange;
+}
